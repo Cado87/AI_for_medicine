@@ -35,3 +35,7 @@ def liver_disease_mortality(input_creatine, input_bilirubin, input_inr):
 
 tmp_meld_score = liver_disease_mortality(0.8, 1.5, 1.3)
 print(f"The patient's MELD score is: {tmp_meld_score:.2f}")
+
+
+#Question 5: If a feature xx has range 0 to ∞, then what is the range of ln(x)?
+print(f"range from {np.log(0)} to {np.log(np.inf)}")
